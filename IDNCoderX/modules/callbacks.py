@@ -8,7 +8,7 @@ from time import time
 from pyrogram import Client
 from pyrogram.types import InlineKeyboardMarkup, CallbackQuery
 
-from ..bot_data import Buttons, Messages
+from IDNCoderX.bot_data import Buttons, Messages
 from .ext_script.ext_helper import extract_with_7z_helper, get_files, make_keyboard
 from IDNCoderX.helpers.unzip_help import progress_for_pyrogram, TimeFormatter, humanbytes
 from config import Config
